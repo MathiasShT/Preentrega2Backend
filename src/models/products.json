@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "Vaquillonas",
+    "description": "Vaquillonas de 1 a 2 anos",
+    "code": "Vq1-2",
+    "price": "320",
+    "status": "true",
+    "stock": "15",
+    "category": "Vaquillonas 1-2"
+  },
+  {
+    "id": 2,
+    "title": "Vacas",
+    "description": "Vaca de invernada",
+    "code": "VI",
+    "price": "530",
+    "status": "true",
+    "stock": "20",
+    "category": "Vaca Invernada"
+  },
+  {
+    "id": 3,
+    "title": "Novillos",
+    "description": "Novillos de 2-3 años",
+    "code": "Nov2-3",
+    "price": "610",
+    "status": "true",
+    "stock": "35",
+    "category": "Novillo 2-3"
+  },
+  {
+    "id": 4,
+    "title": "Toros",
+    "description": "Toros 3 años",
+    "code": "T5",
+    "price": "900",
+    "status": "true",
+    "stock": "3",
+    "category": "Toros"
+  },
+  {
+    "title": "Vaquillonas",
+    "description": "Vaquillonas de 2-3 años",
+    "price": "4000",
+    "code": "Vq2-3",
+    "stock": "18",
+    "category": "Vaquillonas 2-3",
+    "status": true,
+    "thumbnails": [],
+    "id": 5
+  }
+]
