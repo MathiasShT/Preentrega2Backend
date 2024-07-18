@@ -5,6 +5,7 @@ const app = express();
 import cartRouter from "./routes/cart.router.js";
 import productsRouter from "./routes/products.router.js";
 import viewsRouter from "./routes/views.router.js";
+import "./database.js";
 
 const PUERTO = 8080;
 
@@ -25,7 +26,7 @@ const httpServer = app.listen(PUERTO, () => {
     console.log(`Escuchando en el http://localhost:${PUERTO}`)
 });
 
-import ProductManager from "./controllers/product-manager.js";
+import ProductManager from "./dao/fs/product-manager.js";
 const productManager = new ProductManager("./src/models/products.json");
 
 const io = new Server(httpServer);
@@ -38,3 +39,5 @@ io.on("connection", async(socket) => {
         io.sockets.emit("productos", await productManager.getProducts())
     })
 });
+
+
